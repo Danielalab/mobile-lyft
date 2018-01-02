@@ -1,12 +1,18 @@
-### LYFT MOBILE 
+### LYFT-MOBILE 
 
 #### OBJETIVO:
 Desarrollar una web-app que replique el sitio de Lyft al momento de registrarse, como se muestra a continuación:
-![Sin titulo](assets/images/1.png)
-![Sin titulo](assets/images/2.png)
-![Sin titulo](assets/images/3.png)
-![Sin titulo](assets/images/4.png)
-![Sin titulo](assets/images/5.png)
+
+![Sin titulo](assets/images/1.png)  
+
+![Sin titulo](assets/images/2.png)  
+
+![Sin titulo](assets/images/3.png)  
+
+![Sin titulo](assets/images/4.png)  
+
+![Sin titulo](assets/images/5.png)  
+
 ![Sin titulo](assets/images/6.png)
 
 #### DETALLES DEL REPOSITORIO:
