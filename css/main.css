@@ -1,7 +1,7 @@
 /* view Splash */
 
 body>div#splash-container {
-  background: linear-gradient(132deg, #2B1E66, #be35b3);
+  background: linear-gradient(132deg, #2B1E66, #EA0B8C);
   background-size: 400% 400%;
   min-height: 100vh;
   animation: BackgroundGradient 10s ease infinite;
