@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Import bootstrap.css-->
+  <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" href="../assets/icons/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Lyft</title>
+</head>
+
+<body>
+  <div class="container-fluid border-bottom">
+    <div class="row text-center align-items-start">
+      <a href="view-2.html" class="col-2 py-2 icon-previous">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+      </a>
+    </div>
+    <div class="row text-center justify-content-center">
+      <h2 class="col-12 text-capitalize my-3">Verify phone number</h2>
+    </div>
+    <div class="row text-center justify-content-center">
+      <p class="col-10">Join now for free ride credit</p>
+    </div>
+  </div>
+
+  <form class="container-fluid mt-5 mb-2">
+    <div class="form-row justify-content-center">
+      <div class="form-group col-2 my-2">
+        <span>LAB - </span>
+      </div>
+      <div class="form-group col-2 my-2">
+        <input type="text" class="form-control" id="first-input">
+      </div>
+      <div class="form-group col-2 my-2">
+        <input class="form-control" id="second-input">
+      </div>
+      <div class="form-group col-2 my-2">
+        <input class="form-control" id="third-input">
+      </div>
+      <span class="my-3">
+        Enter the code sent to +52
+      </span>
+    </div>
+    <div class="form-row justify-content-center align-items-end">
+      <button type="button" id="btn-resend-code" class="btn btn-secondary py-2 text-uppercase" data-toggle="modal" data-target=".bd-example-modal-sm">Resend code</button>
+    </div>
+    <div class="form-row justify-content-center align-items-end btn-container">
+      <button id="btn-next" class="btn btn-primary col-11 py-2 mb-5 text-uppercase btn-next" disabled>Next</button>
+    </div>
+  </form>
+
+  <!-- modal -->
+  <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+        </div>
+        <div class="modal-body">
+          <p>Your code : LAB -
+            <span id="code"></span>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal" id="btn-close">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- script -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../js/app.js"></script>
+  <script src="../js/view-3.js"></script>
+</body>
+
+</html>

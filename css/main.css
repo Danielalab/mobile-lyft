@@ -1,0 +1,107 @@
+/* view Splash */
+
+body>div#splash-container {
+  background: linear-gradient(132deg, #2B1E66, #be35b3);
+  background-size: 400% 400%;
+  min-height: 100vh;
+  animation: BackgroundGradient 10s ease infinite;
+}
+
+@keyframes BackgroundGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#loader {
+  min-height: 100vh;
+}
+
+/* VIEW 1 */
+
+.bg-img {
+  background: url('../assets/images/7.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.height-row {
+  min-height: 50vh;
+}
+
+/* VIEW 2 */
+
+.btn-light {
+  background-color: transparent;
+  border: 1.5px solid white;
+  color: white;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.icon-previous {
+  background-color: rgb(52, 37, 128);
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #cececee1;
+}
+
+.btn-container {
+  min-height: 40vh;
+}
+
+.btn-primary, .btn-primary:disabled, .btn-primary:hover, .btn-primary:active {
+  cursor: pointer;
+  background-color: #EA0B8C;
+  border-color: #EA0B8C;  
+}
+
+.btn-next {  
+  font-size: 1.2em;
+  font-weight: 400;
+  border-radius: 0;
+}
+
+/* VIEW - 4 */
+
+form div.input-group-prepend {
+  border: 1px solid #ced4da;
+}
+
+/* VIEW - 5 */
+
+.container-final {
+  background: url('../assets/images/bg-final.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.title-final, .btn-started, .btn-started:hover {
+  color: #EA0B8C;
+}
+
+.min-height {
+  min-height: 40vh;
+}
+
+.container-final h4 {
+  color: white;
+}
+
+.btn-started {
+  background-color: white;
+  cursor: pointer;
+  font-weight: 600;
+}

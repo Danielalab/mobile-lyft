@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Import bootstrap.css-->
+  <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" href="../assets/icons/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Lyft</title>
+</head>
+
+<body>
+  <div class="container-fluid border-bottom">
+    <div class="row text-center align-items-start">
+      <a href="view-2.html" class="col-2 py-2 icon-previous">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+      </a>
+      <h2 class="col-8 text-capitalize my-3">sign up</h2>
+    </div>
+    <div class="row text-center justify-content-center">
+      <p class="col-10">Join now for free ride credit</p>
+    </div>
+  </div>
+
+  <form class="container-fluid my-5">
+    <div class="form-row justify-content-center">
+      <div class="input-group col-10 mb-3">
+        <div class="input-group-prepend py-1 px-2 rounded-left">
+          <span class="input-group-text">
+            <i class="fa fa-user-o" aria-hidden="true"></i>
+          </span>
+        </div>
+        <input id="first-name" type="text" class="form-control" placeholder="First name">
+        <input id="last-name" type="text" class="form-control" placeholder="Last name">
+      </div>
+      <div class="input-group col-10 mb-4">
+        <div class="input-group-prepend py-1 px-2 rounded-left">
+          <span class="input-group-text" id="basic-addon1">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          </span>
+        </div>
+        <input id="email" type="email" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+    </div>
+    <div class="form-row justify-content-center">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+          I gree to Lyft'ss
+          <a href="#">Terms of Service</a>
+        </label>
+      </div>
+    </div>
+    <div class="form-row justify-content-center align-items-end btn-container">
+      <button id="btn-next" class="btn btn-primary col-11 py-2 mb-5 text-uppercase btn-next" disabled>Next</button>
+    </div>
+  </form>
+
+  <!-- script -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../js/app.js"></script>  
+  <script src="../js/view-4.js"></script>
+</body>
+
+</html>
