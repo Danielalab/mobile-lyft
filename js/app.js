@@ -5,7 +5,7 @@ function activateButton(button) {
   button.attr('disabled', false);
 }
 
-// funcion paea desactivar el boton
+// funcion para desactivar el botón
 function desactiveButton(button) {
   button.attr('disabled', 'disabled');
 } 
