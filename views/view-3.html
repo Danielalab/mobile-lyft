@@ -13,45 +13,51 @@
 </head>
 
 <body>
-  <div class="container-fluid border-bottom">
-    <div class="row text-center align-items-start">
-      <a href="view-2.html" class="col-2 py-2 icon-previous">
-        <i class="fa fa-chevron-left" aria-hidden="true"></i>
-      </a>
-    </div>
-    <div class="row text-center justify-content-center">
-      <h2 class="col-12 text-capitalize my-3">Verify phone number</h2>
-    </div>
-    <div class="row text-center justify-content-center">
-      <p class="col-10">Join now for free ride credit</p>
+  <div class="container-fluid">
+    <div class="row justify-content-center align-items-center height-100 bg-img-3">
+      <div class="col-12 col-md-4 bg-white px-0">
+        <div class="container-fluid border-bottom">
+          <div class="row text-center align-items-start">
+            <a href="view-2.html" class="col-2 py-2 icon-previous">
+              <i class="fa fa-chevron-left" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div class="row text-center justify-content-center">
+            <h2 class="col-12 text-capitalize my-3">Verify phone number</h2>
+          </div>
+          <div class="row text-center justify-content-center">
+            <p class="col-10">Join now for free ride credit</p>
+          </div>
+        </div>
+
+        <form class="container-fluid mt-4">
+          <div class="form-row justify-content-center">
+            <div class="form-group col-2 my-2">
+              <span>LAB - </span>
+            </div>
+            <div class="form-group col-2 my-2">
+              <input type="text" class="form-control" id="first-input">
+            </div>
+            <div class="form-group col-2 my-2">
+              <input class="form-control" id="second-input">
+            </div>
+            <div class="form-group col-2 my-2">
+              <input class="form-control" id="third-input">
+            </div>
+            <span class="my-3">
+              Enter the code sent to +52
+            </span>
+          </div>
+          <div class="form-row justify-content-center align-items-end">
+            <button type="button" id="btn-resend-code" class="btn btn-secondary py-2 text-uppercase" data-toggle="modal" data-target=".bd-example-modal-sm">Resend code</button>
+          </div>
+          <div class="form-row justify-content-center align-items-end btn-container">
+            <button id="btn-next" class="btn btn-primary col-11 py-2 mb-5 text-uppercase btn-next" disabled>Next</button>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
-
-  <form class="container-fluid mt-5 mb-2">
-    <div class="form-row justify-content-center">
-      <div class="form-group col-2 my-2">
-        <span>LAB - </span>
-      </div>
-      <div class="form-group col-2 my-2">
-        <input type="text" class="form-control" id="first-input">
-      </div>
-      <div class="form-group col-2 my-2">
-        <input class="form-control" id="second-input">
-      </div>
-      <div class="form-group col-2 my-2">
-        <input class="form-control" id="third-input">
-      </div>
-      <span class="my-3">
-        Enter the code sent to +52
-      </span>
-    </div>
-    <div class="form-row justify-content-center align-items-end">
-      <button type="button" id="btn-resend-code" class="btn btn-secondary py-2 text-uppercase" data-toggle="modal" data-target=".bd-example-modal-sm">Resend code</button>
-    </div>
-    <div class="form-row justify-content-center align-items-end btn-container">
-      <button id="btn-next" class="btn btn-primary col-11 py-2 mb-5 text-uppercase btn-next" disabled>Next</button>
-    </div>
-  </form>
 
   <!-- modal -->
   <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
