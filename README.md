@@ -1,7 +1,7 @@
 ### LYFT-MOBILE 
 
 #### OBJETIVO:
-Desarrollar una web-app que replique el sitio de Lyft al momento de registrarse, como se muestra a continuación:
+Desarrollar una web-app que replique el sitio de Lyft al momento de registrar un usuario realizando diversas validaciones como la colocación de sólo números, solo letras, etc ... para así podeer obtener la información del usuario correctamente, como se muestra a continuación:
 
 ![Sin titulo](assets/images/1.png) 
 
