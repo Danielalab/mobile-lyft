@@ -1,10 +1,9 @@
 # LYFT-MOBILE 
-
 Desarrollar una web-app que replique el sitio de Lyft al momento de registrar un usuario realizando diversas validaciones como la colocación de sólo números, solo letras, etc ... para así podeer obtener la información del usuario correctamente, como se muestra a continuación:
 
-![Sin titulo](https://user-images.githubusercontent.com/32286663/36439542-48967ebc-163b-11e8-87dd-bfd95ca6c07f.png) 
+![Sin titulo](https://user-images.githubusercontent.com/32286663/36439542-48967ebc-163b-11e8-87dd-bfd95ca6c07f.png)
 
-Desarrollado por [Laboratoria](http://www.laboratoria.la/ "titulo")
+## Desarrollado para [Laboratoria](http://laboratoria.la) 
 
 #### DETALLES DEL REPOSITORIO:
 
