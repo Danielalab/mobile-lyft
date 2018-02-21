@@ -7,6 +7,9 @@ function verifyCode() {
   var $thirdInput = $('#third-input');
   var $btnNext = $('#btn-next');
   var $btnResendCode = $('#btn-resend-code');
+  var $phone = $('#phone');
+
+  $phone.text(sessionStorage.number);
   
   // variables centinelas
   var validateFirstInput = false;

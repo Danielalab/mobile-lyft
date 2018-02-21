@@ -9,7 +9,8 @@ function verifyPhone() {
 
   $userPhone.on('input', function() {
     console.log($(this).val());
-    if (regExpPhone.test($(this).val()) && $(this).val().length === 10) {
+    if (regExpPhone.test($(this).val()) && $(this).val().length === 9) {
+      sessionStorage.number = $(this).val();
       activateButton($buttonNext);
     } else {
       desactiveButton($buttonNext);

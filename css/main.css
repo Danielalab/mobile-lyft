@@ -5,6 +5,7 @@ body>div#splash-container {
   background-size: 400% 400%;
   min-height: 100vh;
   animation: BackgroundGradient 10s ease infinite;
+  cursor: pointer;
 }
 
 @keyframes BackgroundGradient {
@@ -66,10 +67,16 @@ body>div#splash-container {
   min-height: 40vh;
 }
 
-.btn-primary, .btn-primary:disabled, .btn-primary:hover, .btn-primary:active {
+.btn-primary, .btn-primary:hover, .btn-primary:active {
   cursor: pointer;
   background-color: #EA0B8C;
   border-color: #EA0B8C;  
+}
+
+.btn-primary:disabled {
+  cursor: pointer;
+  background-color: #ea0b8dda;
+  border-color: #ea0b8dda;  
 }
 
 .btn-next {  

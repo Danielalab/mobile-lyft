@@ -1,7 +1,16 @@
-$(document).ready(viewSplash);
+$(document).ready(() => {
+  let containerSplash = document.getElementById('splash-container');
 
-function viewSplash() {
-  setTimeout(function() {
-    window.location.href = 'views/view-1.html';
-  }, 5000);
-};
+  let openProyect = () => {
+    window.location.href = 'views/view-1.html';    
+  };
+
+  function viewSplash() {
+    setTimeout(function() {
+      window.location.href = 'views/view-1.html';
+    }, 4000);
+  };
+
+  containerSplash.addEventListener('click', openProyect);
+  viewSplash();
+});
